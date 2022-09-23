@@ -1,0 +1,31 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "demo",
+    "simple"
+  ],
+  "author": "jan",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "fuzzyset": "0.0.4",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
